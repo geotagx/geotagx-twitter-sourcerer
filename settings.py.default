@@ -1,0 +1,13 @@
+TARGET_HOST = "http://geotagx.org"
+TARGET_URI  = "/geotagx/sourcerer-proxy"
+GEOTAGX_SOURCERER_TYPE="geotagx-twitter-sourcerer"
+
+consumer_key="Enter your twitter consumer key here"
+consumer_secret="Enter your twitter consumer secret here"
+access_token="Enter your OAuth Access Token here"
+access_token_secret="Enter your OAuth Access Token Secret here"
+
+
+DATABASE_SYNC = 60*10 #interval in seconds in which the database has to be synced
+GEOTAGX_FILTER = ['yemen', 'yemen crisis', '#yemen', '#YemenCrisis'] #List of keywords/hashtags that you want to keep an eye for
+CATEGORIES = ['ebolaresponse', 'somalidrought'] # List of categories where you would want the images to be added

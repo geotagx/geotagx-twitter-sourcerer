@@ -1,0 +1,4 @@
+*.pyc
+env/
+settings.py
+data_dump.json
